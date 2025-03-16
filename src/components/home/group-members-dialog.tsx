@@ -5,10 +5,10 @@ import {
 	DialogHeader,
 	DialogTitle,
 	DialogTrigger,
-} from "@/components/ui/dialog";
+} from "@/src/components/ui/dialog";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { Crown } from "lucide-react";
-import { Conversation } from "@/store/chat-store";
+import { Conversation } from "@/src/components/store/chat-store";
 import { useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 

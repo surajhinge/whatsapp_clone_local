@@ -1,5 +1,5 @@
 import { getRelativeDateTime, isSameDay } from "@/lib/utils";
-import { IMessage } from "@/store/chat-store";
+import { IMessage } from "@/src/components/store/chat-store";
 
 type DateIndicatorProps = {
 	message: IMessage;

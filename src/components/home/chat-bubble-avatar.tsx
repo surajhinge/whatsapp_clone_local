@@ -1,4 +1,4 @@
-import { IMessage } from "@/store/chat-store";
+import { IMessage } from "@/src/components/store/chat-store";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 
 type ChatBubbleAvatarProps = {

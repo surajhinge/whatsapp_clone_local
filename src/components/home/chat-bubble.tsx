@@ -1,5 +1,5 @@
 import { MessageSeenSvg } from "@/lib/svgs";
-import { IMessage, useConversationStore } from "@/store/chat-store";
+import { IMessage, useConversationStore } from "@/src/components/store/chat-store";
 import ChatBubbleAvatar from "./chat-bubble-avatar";
 import DateIndicator from "./date-indicator";
 import Image from "next/image";
